@@ -1,2 +1,3 @@
+warp-terminal-bin
 yay-bin
 yay-bin-debug
