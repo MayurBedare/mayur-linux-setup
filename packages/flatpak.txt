@@ -1,0 +1,5 @@
+com.brave.Browser
+com.getpostman.Postman
+com.github.xournalpp.xournalpp
+com.slack.Slack
+io.github.cboxdoerfer.FSearch
