@@ -1,0 +1,19 @@
+# Cache
+.cache/
+*.log
+*.tmp
+
+# Browser junk
+Cache/
+GPUCache/
+
+# HyDE wallpapers
+configs/hyde/themes/*/wallpapers/
+
+# Secrets
+.ssh/
+id_rsa
+id_ed25519
+
+# OS files
+.DS_Store
