@@ -2,8 +2,18 @@
 
 set -e
 
-echo "Installing packages..."
+echo "Updating system..."
+sudo pacman -Syu --noconfirm
 
-sudo pacman -S --needed - < packages/pacman.txt
+echo "Installing pacman packages..."
+sudo pacman -S --needed --noconfirm $(cat packages/pacman.txt)
 
-echo "Done."
+echo "Installing AUR packages..."
+yay -S --needed --noconfirm $(cat packages/aur.txt)
+
+echo "Installing Flatpak packages..."
+while read -r app; do
+    flatpak install -y flathub "$app"
+done < packages/flatpak.txt
+
+echo "Installation complete."
