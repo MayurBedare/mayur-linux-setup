@@ -1,0 +1,11 @@
+Filesystem      Size  Used Avail Use% Mounted on
+dev             7.6G     0  7.6G   0% /dev
+run             7.7G  1.6M  7.7G   1% /run
+efivarfs        438K  258K  176K  60% /sys/firmware/efi/efivars
+/dev/nvme0n1p2  209G   28G  170G  14% /
+tmpfs           7.7G  120M  7.6G   2% /dev/shm
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           7.7G   31M  7.7G   1% /tmp
+/dev/nvme0n1p1  346M  174M  173M  51% /boot
+tmpfs           1.6G  100M  1.5G   7% /run/user/1000
+/dev/nvme0n1p8   76G   53G   20G  74% /mnt/ubuntu
