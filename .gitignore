@@ -17,3 +17,5 @@ id_ed25519
 
 # OS files
 .DS_Store
+configs/hyde/themes/
+configs/hyde/wallbash/
