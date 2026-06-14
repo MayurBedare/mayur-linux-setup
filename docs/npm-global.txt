@@ -1,0 +1,3 @@
+/home/mayur/.npm-global/lib
+└── opencode-ai@1.17.6
+
